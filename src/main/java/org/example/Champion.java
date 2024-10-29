@@ -1,5 +1,11 @@
 package org.example;
 
+// Lombok Library 를 사용해서 코드의 양을 줄이고 가독성을 높임 (Lombok 이 자동으로 Getter 와 Setter 를 생성해준다)
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
 public class Champion {
     private int id; // 고유 id
     private String name; // 챔피언 이름
@@ -11,78 +17,20 @@ public class Champion {
     private String skillE; // E 스킬 이름
     private String skillR; // R 스킬 이름
     private String createDate; // 데이터가 생성된 날짜
-    public Champion(int id, String name, String position, String damageType, String passive, String q, String w, String e, String r, String createDate) {
+
+    public Champion(int id, String name, String position, String damageType, String skillPassive, String skillQ, String skillW, String skillE, String skillR, String createDate) {
         this.id = id;
         this.name = name;
         this.position = position;
         this.damageType = damageType;
-        this.skillPassive = passive;
-        this.skillQ = q;
-        this.skillW = w;
-        this.skillE = e;
-        this.skillR = r;
+        this.skillPassive = skillPassive;
+        this.skillQ = skillQ;
+        this.skillW = skillW;
+        this.skillE = skillE;
+        this.skillR = skillR;
         this.createDate = createDate;
     }
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
-    }
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-    public String getPosition() {
-        return position;
-    }
-    public void setPosition(String position) {
-        this.position = position;
-    }
-    public String getDamageType() {
-        return damageType;
-    }
-    public void setDamageType(String damageType) {
-        this.damageType = damageType;
-    }
-    public String getPassive() {
-        return skillPassive;
-    }
-    public void setPassive(String passive) {
-        this.skillPassive = passive;
-    }
-    public String getQ() {
-        return skillQ;
-    }
-    public void setQ(String q) {
-        this.skillQ = q;
-    }
-    public String getW() {
-        return skillW;
-    }
-    public void setW(String w) {
-        this.skillW = w;
-    }
-    public String getE() {
-        return skillE;
-    }
-    public void setE(String e) {
-        this.skillE = e;
-    }
-    public String getR() {
-        return skillR;
-    }
-    public void setR(String r) {
-        this.skillR = r;
-    }
-    public String getCreateDate() {
-        return createDate;
-    }
-    public void setCreateDate(String createDate) {
-        this.createDate = createDate;
-    }
+
     @Override
     public String toString() {
         return String.format("%d %s\t(%s %s)\t[%s\t%s\t%s\t%s\t%s]  -  %s", id, name, position, damageType, skillPassive, skillQ, skillW, skillE, skillR, createDate);
