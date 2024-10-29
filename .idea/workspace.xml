@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2892ddb3-77a6-4166-a8f4-d886ed71c5a9" name="Changes" comment="Update README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e1a4683-a68d-473a-aa69-f1a2cb95f8df.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0e1a4683-a68d-473a-aa69-f1a2cb95f8df.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2892ddb3-77a6-4166-a8f4-d886ed71c5a9" name="Changes" comment="Update README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
