@@ -9,5 +9,8 @@
         <module name="CRUDSQLite" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CRUDSQLite" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
