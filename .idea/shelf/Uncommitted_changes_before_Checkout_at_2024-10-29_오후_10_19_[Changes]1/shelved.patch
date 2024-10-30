@@ -1,0 +1,34 @@
+Index: .idea/dataSources.xml
+===================================================================
+diff --git a/.idea/dataSources.xml b/.idea/dataSources.xml
+deleted file mode 100644
+--- a/.idea/dataSources.xml	
++++ /dev/null	
+@@ -1,15 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+-    <data-source source="LOCAL" name="myChampion" uuid="0e1a4683-a68d-473a-aa69-f1a2cb95f8df">
+-      <driver-ref>sqlite.xerial</driver-ref>
+-      <synchronize>true</synchronize>
+-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/mychampion.db</jdbc-url>
+-      <jdbc-additional-properties>
+-        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+-      </jdbc-additional-properties>
+-      <working-dir>$ProjectFileDir$</working-dir>
+-    </data-source>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+new file mode 100644
+--- /dev/null	
++++ b/README.md	
+@@ -0,0 +1,1 @@
++[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FgyAlX5H)
