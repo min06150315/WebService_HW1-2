@@ -63,4 +63,12 @@ public class ChampionCRUD implements ICRUD<Champion> {
         }
         return 0; // 해당 ID의 Champion 이 없을 경우 0 반환
     }
+    public Champion searchByName(String name) {
+        for (Champion i : championList) {
+            if (i.getName().equalsIgnoreCase(name)) {
+                return i;
+            }
+        }
+        return null; // 찾지 못한 경우 null 반환
+    }
 }
