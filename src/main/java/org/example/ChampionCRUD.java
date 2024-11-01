@@ -228,8 +228,12 @@ public class ChampionCRUD implements ICRUD {
 
     @Override
     public void saveToFile() {
-        String filename = "champions.txt";
-        try (FileWriter writer = new FileWriter(filename)) {
+        LocalDateTime now = LocalDateTime.now();
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyyMMdd_HHmm");
+        String currentTime  = now.format(dateTimeFormatter);
+        String newFileName = "data_" + currentTime + ".txt";
+        //String filename = "champions.txt";
+        try (FileWriter writer = new FileWriter(newFileName)) {
             for (Champion champion : champions) {
                 writer.write(champion.getId() + " / ");
                 writer.write(champion.getName() + " / ");
@@ -243,7 +247,7 @@ public class ChampionCRUD implements ICRUD {
                 writer.write(champion.getSkillR() + " / ");
                 writer.write(champion.getCreateDate() + "\n");
             }
-            System.out.println("✅ 챔피언 목록이 " + filename + " 파일에 저장되었습니다.");
+            System.out.println("✅ 챔피언 목록이 " + newFileName + " 파일에 저장되었습니다.");
         } catch (IOException e) {
             System.out.println("⚠️ 파일 저장 중 오류가 발생했습니다: " + e.getMessage());
         }
