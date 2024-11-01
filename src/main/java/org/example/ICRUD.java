@@ -1,10 +1,12 @@
 package org.example;
 
-import java.util.List;
-
-public interface ICRUD<C> {
-    int create(C one);
-    List<C> list();
-    int update(C one);
-    int delete(int id);
+public interface ICRUD {
+    void addChampion();
+    void listChampions();
+    void listChampionsByRegion();
+    void listChampionsByPosition();
+    void searchChampion();
+    void updateChampion();
+    void deleteChampion();
+    void saveToFile();
 }
