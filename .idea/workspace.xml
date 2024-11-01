@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23e37d4e-28b4-4f5f-b1c4-39be5359eff8" name="Changes" comment="Commit xml Files" />
+    <list default="true" id="23e37d4e-28b4-4f5f-b1c4-39be5359eff8" name="Changes" comment="Update Main.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mychampion.db" beforeDir="false" afterPath="$PROJECT_DIR$/mychampion.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ChampionCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ChampionCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ChampionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ChampionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -60,8 +74,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,6 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730306263996</updated>
       <workItem from="1730306271620" duration="2211000" />
+      <workItem from="1730354149127" duration="6959000" />
     </task>
     <task id="LOCAL-00002" summary="Update pom.xml (SLF4J 경고 문구가 떠서 slf4j-simple 라이브러리를 Maven에 추가)">
       <option name="closed" value="true" />
@@ -127,7 +144,87 @@
       <option name="project" value="LOCAL" />
       <updated>1730308475007</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update pom.xml (SLF4J 경고 문구가 떠서 slf4j-simple 라이브러리를 Maven에 추가)">
+      <option name="closed" value="true" />
+      <created>1730308970954</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730308970954</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update Champion.java (Champion 객체에 region(챔피언의 소속) 변수 추가)">
+      <option name="closed" value="true" />
+      <created>1730310880634</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730310880634</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update Main.java (설명 추가)">
+      <option name="closed" value="true" />
+      <created>1730311086600</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730311086600</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update ChampionCRUD.java (설명 추가)">
+      <option name="closed" value="true" />
+      <created>1730313910442</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730313910442</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update ChampionManager.java (loadChampionsFromDataBase, listChampions 기능 구현)">
+      <option name="closed" value="true" />
+      <created>1730313942109</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730313942109</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update Champion.java">
+      <option name="closed" value="true" />
+      <created>1730333896766</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730333896766</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update ChampionCRUD.java (searchByName 메소드 추가)">
+      <option name="closed" value="true" />
+      <created>1730333920406</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730333920406</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update ChampionManager.java (추가, 수정, 삭제 기능 구현)">
+      <option name="closed" value="true" />
+      <created>1730333977298</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730333977298</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add DBUtil.java (데이터베이스 관련 클래스 추가)">
+      <option name="closed" value="true" />
+      <created>1730340261818</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730340261818</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update Main.java">
+      <option name="closed" value="true" />
+      <created>1730340303885</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1730340303885</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,10 +233,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Update ChampionCRUD.java" />
-    <MESSAGE value="Update pom.xml (SLF4J 경고 문구가 떠서 slf4j-simple 라이브러리를 Maven에 추가)" />
     <MESSAGE value="Update ChampionManager.java (Menu 기능 구현)" />
     <MESSAGE value="Update Main.java and Main.class" />
     <MESSAGE value="Commit xml Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit xml Files" />
+    <MESSAGE value="Update pom.xml (SLF4J 경고 문구가 떠서 slf4j-simple 라이브러리를 Maven에 추가)" />
+    <MESSAGE value="Update Champion.java (Champion 객체에 region(챔피언의 소속) 변수 추가)" />
+    <MESSAGE value="Update Main.java (설명 추가)" />
+    <MESSAGE value="Update ChampionCRUD.java (설명 추가)" />
+    <MESSAGE value="Update ChampionManager.java (loadChampionsFromDataBase, listChampions 기능 구현)" />
+    <MESSAGE value="Update Champion.java" />
+    <MESSAGE value="Update ChampionCRUD.java (searchByName 메소드 추가)" />
+    <MESSAGE value="Update ChampionManager.java (추가, 수정, 삭제 기능 구현)" />
+    <MESSAGE value="Add DBUtil.java (데이터베이스 관련 클래스 추가)" />
+    <MESSAGE value="Update Main.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Main.java" />
   </component>
 </project>
